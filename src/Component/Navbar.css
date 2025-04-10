@@ -229,3 +229,23 @@
       font-size: 0.9rem;
     }
   }
+
+  /* Navbar Link Styles */
+.navbar-logo a,
+.nav-links a,
+.nav-icons a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-links .active {
+  color: #3498db;
+}
+
+/* Close mobile menu when clicking a link */
+@media (max-width: 992px) {
+  .nav-links.active {
+    height: calc(100vh - 70px);
+    overflow-y: auto;
+  }
+}

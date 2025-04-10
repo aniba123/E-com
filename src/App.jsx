@@ -1,19 +1,62 @@
-
-// import './App.css'
-
-import AboutUs from "./Component/AboutUs"
-import HomePage from "./Component/Home"
-import Navbar from "./Component/Navbar"
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import HomePage from './Component/Home';
+import AboutUs from './Component/AboutUs';
+import Navbar from './Component/Navbar';
+import Contact from './Component/Contact';
+import CategoriesPage from './Component/Catagories';
 
 function App() {
-
   return (
-    <>
-<Navbar/>   
-<HomePage/>   
-<AboutUs/> 
-    </>
-  )
+    <Router>
+      <div className="app">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<AboutUs />} />
+          {/* Add more routes as needed */}
+<Route path="/contact" element={<Contact />} />
+<Route path="/catagories" element={<CategoriesPage/>} />
+
+        </Routes>
+      </div>
+    </Router>
+  );
 }
 
-export default App
+export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

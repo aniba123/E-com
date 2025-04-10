@@ -1,10 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaTshirt, FaUsers, FaAward, FaGlobeAmericas } from 'react-icons/fa';
-import team1 from '../assets/team1.jpg'; // Replace with your images
-import team2 from '../assets/team2.jpg';
-import team3 from '../assets/team3.jpg';
-import warehouse from '../assets/warehouse.jpg';
+import team1 from '../assets/itme1.jpg'; // Replace with your images
+import team2 from '../assets/itme2.jpg';
+import team3 from '../assets/item3.jpg';
+import warehouse from '../assets/item4.jpg';
 import './AboutUs.css'; // Import your CSS file
 
 const AboutUs = () => {

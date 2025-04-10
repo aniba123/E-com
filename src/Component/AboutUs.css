@@ -6,7 +6,9 @@
   
   /* Hero Section */
   .about-hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), url('../assets/about-hero.jpg') no-repeat center center);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://plus.unsplash.com/premium_photo-1664006988924-16f386bcd40e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YWJvdXQlMjBwYWdlJTIwcGljfGVufDB8fDB8fHww');
+    background-repeat: no-repeat;
+    background-position: center center;
     background-size: cover;
     height: 60vh;
     min-height: 400px;
@@ -15,7 +17,7 @@
     text-align: center;
     color: white;
     position: relative;
-  }
+}
   
   .hero-content h1 {
     font-size: 3.5rem;
