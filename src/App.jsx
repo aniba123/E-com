@@ -5,7 +5,7 @@ import AboutUs from './Component/AboutUs';
 import Navbar from './Component/Navbar';
 import Contact from './Component/Contact';
 import CategoriesPage from './Component/Catagories';
-
+import Profile from './Component/Profile';
 function App() {
   return (
     <Router>
@@ -17,6 +17,7 @@ function App() {
           {/* Add more routes as needed */}
 <Route path="/contact" element={<Contact />} />
 <Route path="/catagories" element={<CategoriesPage/>} />
+<Route path="/profile" element={<Profile/>} />
 
         </Routes>
       </div>

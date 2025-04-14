@@ -66,7 +66,7 @@ const Navbar = () => {
             <FaShoppingCart />
             <span className="cart-count">0</span>
           </Link>
-          <Link to="/account" className="nav-icon">
+          <Link to="/profile" className="nav-icon">
             <FaUser />
           </Link>
         </div>
